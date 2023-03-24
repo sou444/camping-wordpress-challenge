@@ -1,0 +1,13 @@
+I had a great time working on the website for camping enthusiasts, and found it to be a fun and rewarding challenge. 
+I enjoyed the process of modifying the existing template of the website, and learned a lot along the way.
+
+To deploy the website on your local host, you can follow these steps:
+
+1- Import the camping.SQL file to http://localhost/phpmyadmin/.
+2- Add the website files to the XAMPP htdocs folder, located at ..\xampp\htdocs.
+3- Visit the website by going to http://localhost/camping/.
+And to access the WordPress dashboard, go to http://localhost/camping/wp-admin/.
+Use the login credentials provided: username 'sou' and password '49urVUKPQOoXaSr.'.
+
+Overall, the experience of working on this website was both enjoyable and educational, 
+and I look forward to continuing to develop my skills in web development.

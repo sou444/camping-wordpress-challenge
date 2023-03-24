@@ -1,0 +1,67 @@
+﻿Version 1.0.7
+	Fixed:
+		- Import Essential Grid 3.0.17+ plugin
+		- Update plugins to their latest versions
+
+Version 1.0.6.1
+    Fixed:
+        - Improved compatibility with WP Travel
+
+Version 1.0.6
+    Added:
+        - Compatibility with WP 6.0.2
+
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+
+    Changed:
+        - Update demo data
+
+Version – v.1.0.5
+    Added:
+        - WP 6.0 compatibility
+        - Compatibility with WP Travel 5.2+
+
+    Fixed:
+        - Theme styles
+
+Version – v.1.0.4
+    Added:
+        - WP 5.8 compatibility
+        - PHP 8.0 compatibility
+        - Compatibility with Slider Revolution 6.5+
+        - Compatibility with Essential Grid 3.0.13
+        - Compatibility with The Events Calendar 5+
+        - Compatibility with WP Travel 5+
+        - ThemeREX Socials plugin
+
+    Fixed:
+        - Theme styles
+
+Version – v.1.0.3
+	Fixed:
+		- Plugins updated
+
+Version – v.1.0.2
+	Added:
+		- Optimization for Gutenberg
+		- Compatibility with Gutenberg
+		- TRX Updater plugin
+		- Compatibility with elegro Crypto Payment plugin
+
+	Fixed:
+		- Update plugins to their latest versions
+		- Improve theme styles
+		- Update JS scripts
+
+Version – v.1.0.1
+	Fixed:
+		- Compatibility with Wordpress 5.3
+		- Image sizes for WP Travel plugin
+
+Version - v1.0.0
+    Plugin TRX Addons has been edited
+    components/shortcodes/supertitle/supertitle.php line 459
+    components/shortcodes/title/title.php line 157
+    cpt/layouts/shortcodes/mets/meta.php line 182

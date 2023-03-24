@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Glegoo-Bold';
+    src: url('Glegoo-Bold.eot');
+    src: url('Glegoo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Glegoo-Bold.woff2') format('woff2'),
+        url('Glegoo-Bold.woff') format('woff'),
+        url('Glegoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

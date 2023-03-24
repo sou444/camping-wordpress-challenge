@@ -1,0 +1,67 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+
+.esg-navigationbutton i[class*="eg-icon-"] {
+	color: #888;
+}
+.esg-navigationbutton:hover i[class*="eg-icon-"] {
+	color: #333;
+}
+
+
+.esg-entry-cover .eec > div[class*="-element-1-a"] {
+	margin-left: 10px !important;
+}
+
+.esg-starring {
+	vertical-align: top;
+}
+.esg-starring .star-rating, .esg-starring-page .star-rating {
+	width: 6em;
+}
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+.esgbox-overlay {
+	z-index: 228010 !important;
+}
+.esgbox-opened {
+	z-index: 228030 !important;
+}
+
+.wp-widget-ess-grid-widget ul > li:before {
+	display: none !important;
+}
+/* Galler */
+.esg-loadmore-wrapper {
+	margin-top:4em;
+}
+.minimal-light .esg-navigationbutton.esg-loadmore {
+	border:none;
+	font-size: 16px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 20px;
+	padding: 1.5em 3em;
+	-webkit-border-radius: 2.3em;
+	-ms-border-radius: 2.3em;
+	border-radius: 2.3em;
+}
+.eg-two-destinations-wrapper .esg-bottom {
+	text-align: left;
+}
+
+button[class^='esgbox-close-']:after{
+	background-color: transparent !important;
+}
+
+.esg-navigationbutton.esg-loadmore{
+	transition: .3s all;
+}

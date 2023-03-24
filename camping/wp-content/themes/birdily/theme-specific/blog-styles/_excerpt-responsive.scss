@@ -1,0 +1,86 @@
+@mixin blog_styles_excerpt--lg() {
+	/* Blog layout: Excerpt */
+	.post_layout_excerpt .post_header .post_price {
+		@include font(2em, 1.5em);
+	}
+}
+
+@mixin blog_styles_excerpt--md() {
+	/* Blog layout: Excerpt */
+	.post_layout_excerpt + .post_layout_excerpt {
+		margin-top: 3em;
+	}
+	.post_layout_excerpt:not(.sticky) + .post_layout_excerpt:not(.sticky) {
+		padding-top: 3em;
+	}
+	.post_layout_excerpt .post_meta {
+		margin-top: 0em;
+	}
+	.post_layout_excerpt .post_header + .post_content {
+		margin-top: 2em;
+	}
+	.post_layout_excerpt .post_header .post_price {
+		@include font(1.75em, 1.5em);
+	}
+}
+
+@mixin blog_styles_excerpt--sm() {
+	/* Blog layout: Excerpt */
+	.post_layout_excerpt + .post_layout_excerpt {
+		margin-top: 3em;
+	}
+	.post_layout_excerpt:not(.sticky) + .post_layout_excerpt:not(.sticky) {
+		padding-top: 3em;
+	}
+	.post_layout_excerpt .post_header .post_price {
+		position:static;
+		right: auto;
+		top: auto;
+		margin-top:0.3em;
+	}
+	.post_layout_excerpt .post_meta {
+		margin-top: 0em;
+	}
+	.post_layout_excerpt .post_header + .post_content {
+		margin-top: 1.5em;
+	}
+	.post_layout_excerpt blockquote {
+		padding: 2em 2em 2em 3em;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.post_layout_excerpt blockquote:before {
+		top: 0.5em;
+		left: 0.2em;
+	}
+}
+@mixin blog_styles_excerpt--xs() {
+	.blog_style_excerpt .sticky .label_sticky {
+    top: -88px;
+    right: -80px;
+	}
+	.post_item.post_format_audio .post_meta_item.post_date, .post_item.post_format_audio.has-post-thumbnail .post_meta_item.post_date {
+		font-size: 1rem;
+		position: inherit;
+	}
+	.post_layout_excerpt .post_meta {
+		margin-top: 0em;
+	}
+	.post_layout_excerpt .post_meta_item.post_categories a, , .post_layout_excerpt .post_meta_item.post_date {
+		margin-bottom: 0.5em;
+	}
+	.post_layout_excerpt + .post_layout_excerpt {
+		margin-top: 2em;
+	}
+	.post_layout_excerpt.format-audio .post_featured .post_audio_title {
+		font-size: 1.2em;
+		line-height: 1.2em;
+		margin-bottom: 0.1em;
+		margin-top: 0.2em;
+	}
+	.post_layout_excerpt.format-audio .post_featured .post_audio_author {
+		font-size: 1.2em;
+		line-height: 1.2em;
+	}
+
+}

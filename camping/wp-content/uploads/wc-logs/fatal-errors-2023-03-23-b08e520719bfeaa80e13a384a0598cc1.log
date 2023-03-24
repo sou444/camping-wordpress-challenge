@@ -1,0 +1,68 @@
+2023-03-23T12:20:53+00:00 CRITICAL Uncaught Exception: Invalid post. in C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\settings\page\manager.php:101
+Stack trace:
+#0 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\base\document.php(1646): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings(Array, NULL)
+#1 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\base\document.php(790): Elementor\Core\Base\Document->save_settings(Array)
+#2 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\kits\manager.php(295): Elementor\Core\Base\Document->update_settings(Array)
+#3 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\kits\manager.php(457): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option('site_name', 'Birdily')
+#4 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(310): Elementor\Core\Kits\Manager->Elementor\Core\Kits\{closure}('Camping', 'Birdily')
+#5 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\camping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\camping\wp-includes\option.php(554): do_action('update_option_b...', 'Camping', 'Birdily', 'blogname')
+#8 C:\xampp\htdocs\camping\wp-content\plugins\trx_addons\components\theme-panel\importer\class.importer.php(1062): update_option('blogname', 'Birdily')
+#9 C:\xampp\htdocs\camping\wp-content\plugins\trx_addons\components\theme-panel\importer\class.importer.php(790): trx_addons_demo_data_importer->import_theme_options()
+#10 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(308): trx_addons_demo_data_importer->importer('')
+#11 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\camping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\camping\wp-admin\admin-ajax.php(188): do_action('wp_ajax_trx_add...')
+#14 {main}
+  thrown in C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\settings\page\manager.php on line 101
+
+2023-03-23T12:27:59+00:00 CRITICAL Uncaught Exception: Invalid post. in C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\settings\page\manager.php:101
+Stack trace:
+#0 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\base\document.php(1646): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings(Array, NULL)
+#1 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\base\document.php(790): Elementor\Core\Base\Document->save_settings(Array)
+#2 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\kits\manager.php(295): Elementor\Core\Base\Document->update_settings(Array)
+#3 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\kits\manager.php(461): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option('site_descriptio...', 'Small Group Tra...')
+#4 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(310): Elementor\Core\Kits\Manager->Elementor\Core\Kits\{closure}('', 'Small Group Tra...')
+#5 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\camping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\camping\wp-includes\option.php(554): do_action('update_option_b...', '', 'Small Group Tra...', 'blogdescription')
+#8 C:\xampp\htdocs\camping\wp-content\plugins\trx_addons\components\theme-panel\importer\class.importer.php(1062): update_option('blogdescription', 'Small Group Tra...')
+#9 C:\xampp\htdocs\camping\wp-content\plugins\trx_addons\components\theme-panel\importer\class.importer.php(790): trx_addons_demo_data_importer->import_theme_options()
+#10 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(308): trx_addons_demo_data_importer->importer('')
+#11 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\camping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\camping\wp-admin\admin-ajax.php(188): do_action('wp_ajax_trx_add...')
+#14 {main}
+  thrown in C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\settings\page\manager.php on line 101
+
+2023-03-23T13:00:08+00:00 CRITICAL Uncaught Exception: Invalid post. in C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\settings\page\manager.php:101
+Stack trace:
+#0 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\base\document.php(1646): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings(Array, NULL)
+#1 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\base\document.php(790): Elementor\Core\Base\Document->save_settings(Array)
+#2 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\kits\manager.php(295): Elementor\Core\Base\Document->update_settings(Array)
+#3 C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\kits\manager.php(457): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option('site_name', 'Camping tours')
+#4 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(310): Elementor\Core\Kits\Manager->Elementor\Core\Kits\{closure}('Birdily', 'Camping tours')
+#5 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\camping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\camping\wp-includes\option.php(554): do_action('update_option_b...', 'Birdily', 'Camping tours', 'blogname')
+#8 C:\xampp\htdocs\camping\wp-includes\class-wp-customize-setting.php(659): update_option('blogname', 'Camping tours', true)
+#9 C:\xampp\htdocs\camping\wp-includes\class-wp-customize-setting.php(685): WP_Customize_Setting->set_root_value('Camping tours')
+#10 C:\xampp\htdocs\camping\wp-includes\class-wp-customize-setting.php(541): WP_Customize_Setting->update('Camping tours')
+#11 C:\xampp\htdocs\camping\wp-includes\class-wp-customize-manager.php(3572): WP_Customize_Setting->save()
+#12 C:\xampp\htdocs\camping\wp-includes\theme.php(3573): WP_Customize_Manager->_publish_changeset_values(119)
+#13 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(308): _wp_customize_publish_changeset('publish', 'auto-draft', Object(WP_Post))
+#14 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#15 C:\xampp\htdocs\camping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\xampp\htdocs\camping\wp-includes\post.php(5347): do_action('transition_post...', 'publish', 'auto-draft', Object(WP_Post))
+#17 C:\xampp\htdocs\camping\wp-includes\post.php(4607): wp_transition_post_status('publish', 'auto-draft', Object(WP_Post))
+#18 C:\xampp\htdocs\camping\wp-includes\post.php(4819): wp_insert_post(Array, true, true)
+#19 C:\xampp\htdocs\camping\wp-includes\class-wp-customize-manager.php(2965): wp_update_post(Array, true)
+#20 C:\xampp\htdocs\camping\wp-includes\class-wp-customize-manager.php(2527): WP_Customize_Manager->save_changeset_post(Array)
+#21 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(308): WP_Customize_Manager->save('')
+#22 C:\xampp\htdocs\camping\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#23 C:\xampp\htdocs\camping\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#24 C:\xampp\htdocs\camping\wp-admin\admin-ajax.php(188): do_action('wp_ajax_customi...')
+#25 {main}
+  thrown in C:\xampp\htdocs\camping\wp-content\plugins\elementor\core\settings\page\manager.php on line 101
+
